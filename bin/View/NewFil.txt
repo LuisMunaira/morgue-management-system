@@ -1,0 +1,226 @@
+  //         //listar
+        //         case  1:
+        //         MostrarOp.mosTrarOp();
+        //         short esc1 = Validacoes.validarShort("Imforme uma opcao do menu: ", 7, 1);
+        //         switch(esc1) {
+        //             //corpos
+        //             case 1:
+        //             MostrarOp.mostarTipoCopr();
+        //             short esc2 = Validacoes.validarShort("Imforme uma opcao do menu: ", 7, 1);
+
+        //             switch(esc2) {
+        //                 case 1:
+        //                 g.listaCConhecido();
+        //                 esc = 5;
+        //                 break;
+
+        //                 case 2:
+        //                 g.listaCDesconhecido();
+        //                 esc = 5;
+        //                 break;
+
+        //                 case 3:
+        //                 gt.listaCorpoT();
+        //                 esc = 5;
+        //                 break;
+        //             }
+        //             break;
+        //             //funcionarios
+        //             case 2:
+        //             gf.listaF();
+        //             esc = 5;
+        //             break;
+
+        //             case 3:
+        //             //listar cameras
+        //              gc.listaCamera();
+        //              esc = 5;
+        //             break;
+
+        //             case 4:
+        //             gm.listaM();
+        //             esc = 5;
+        //             break;
+
+        //             //mostra menu principa;
+        //             case 5:
+        //             MostrarOp.mostrarOpP();
+        //             esc = Validacoes.validarShort("Imforme uma opcao do menu: ", 7, 1);
+        //             break;
+        //         }
+        //     break;
+
+        //        //cadastrar
+        //         case 2:
+        //         MostrarOp.mosTrarOp();
+        //         short esc3 = Validacoes.validarShort("Imforme uma opcao do menu : ", 7, 1);
+        //         switch(esc3) {
+        //             case 1:
+        //            MostrarOp.mostarTipoCopr();
+        //            short esc4 = Validacoes.validarShort("Imforme uma opcao do menu : ", 3, 1);
+
+        //            switch(esc4) {
+        //                case 1:
+        //                g.recebeConhecido();
+        //                g.gravarTxt("corpo.txt");
+        //                break;
+
+        //                case 2:
+        //                g.recebeDesconhecido();
+        //                g.gravarTxt("corpo.txt");
+        //                break;
+
+        //                case 3:
+        //                gt.recebeCTransF();
+        //                gt.GravarFichC("corpoT.txt");
+        //                break;
+        //            }
+        //             break;
+
+        //             case 2:
+        //             gf.recedados();
+        //             gf.gravarTxt("Funcionario.txt");
+        //             break;
+
+        //             case 3:
+        //             gc.recedados();
+        //             gc.GravarFich("camera.txt");
+        //             break;
+
+        //             case 4:
+        //             gm.recedados();
+        //             gm.gravarTxt("morgue.txt");
+        //             break;
+
+        //             //mostar menu principal
+        //             case 5:
+        //             MostrarOp.mostrarOpP();
+        //             esc = Validacoes.validarShort("Imforme uma opcao do menu: ", 7, 1);
+        //             break;
+        //         }
+        //         break;
+
+        //         //editar dados
+        //         case 3:
+        //         MostrarOp.mosTrarOp();
+        //         short esc4 = Validacoes.validarShort("imforme uma opcao do menu:  ", 7, 1);
+
+        //         switch(esc4) {
+        //             //corpos
+        //             case 1:
+        //            MostrarOp.mostarTipoCopr();
+        //             short esc5 = Validacoes.validarShort("imforme o tipo de corpo : ", 7, 1);
+        //             switch(esc5) {
+        //                 //conhecidos
+        //                 case 1:
+        //                 cod = Validacoes.ValidarInt("Imforme o codigo do corpo a editar o nome do parente : ", 9999, 1000);
+        //                 g.editaC(cod);
+        //                 g.gravarTxt("corpo.txt");
+        //                 break;
+
+        //                 //desconhecido
+        //                 case 2:
+        //                 cod = Validacoes.ValidarInt("Imforme o codigo do corpo a editar  as marcas na pele : ", 9999, 1000);
+        //                 g.editaD(cod);
+        //                 g.gravarTxt("corpo.txt");
+        //                 break;
+
+        //                 //transferido
+        //                 case 3:
+        //                 cod = Validacoes.ValidarInt("Imforme o codigo do corpo a  editar sua localizacao : ", 9999, 1000);
+        //                 gt.editaCT(cod);
+        //                 gt.GravarFichC("corpoT.txt");
+        //                 break;
+        //             }
+        //             break;
+
+        //             //funcionarios
+        //             case 2:
+        //             cod = Validacoes.ValidarInt("Imforme o codigo do  funcionario a mudar a funcao : ", 9999, 1000);
+        //             gf.editaF(cod);
+        //             gf.gravarTxt("Funcionario.txt");
+        //             break;
+
+        //             //cameras
+        //             case 3:
+        //             cod = Validacoes.ValidarInt("Imforme o codigo do corpo : ", 9999, 1000);
+        //             gc.editaCamera(cod);
+        //             gc.GravarFich("camera.txt");
+        //             break;
+
+        //             //morgues vieculdas
+        //             case 4:
+        //             cod = Validacoes.ValidarInt("Imforme o codigo da morgue  que deseja alterar o celular : ", 9999, 1000);
+        //             gm.edita(cod);
+        //             gm.gravarTxt("morgue.txt");
+        //             break;
+
+        //             case 5:
+        //             MostrarOp.mostrarOpP();
+        //             esc = Validacoes.validarShort("Imforme uma opcao do menu: ", 7, 1);
+        //             break;
+        //         }
+        //         break;
+
+        //         //remover dados
+        //         case 4:
+        //         MostrarOp.mosTrarOp();
+        //         short esc5 = Validacoes.validarShort("Imforme uma opcao do menu:  ", 7, 1);
+        //         switch(esc5) {
+        //             //corpos
+        //             case 1:
+        //             MostrarOp.mostarTipoCopr();
+        //             short esc6 = Validacoes.validarShort("Imforme uma opcao do menu: ", 7, 1);
+
+        //         switch (esc6) {
+        //                 //conhecidos
+        //                 case 1:
+        //                 cod = Validacoes.ValidarInt("Imforme o codigo do corpo  a remover : ", 9999, 1000);
+        //                 g.removeCorC(cod);
+        //                 g.gravarTxt("corpo.txt");
+        //                 break;
+
+        //                 //desconhecido
+        //                 case 2:
+        //                 cod = Validacoes.ValidarInt("Imforme o codigo do corpo  a remover : ", 9999, 1000);
+        //                 g.removeCorD(cod);
+        //                 g.gravarTxt("corpo.txt");
+        //                 break;
+
+        //                 //transferidos
+        //                 case 3:
+        //                 cod = Validacoes.ValidarInt("Imforme o codigo do corpo  a remover : ", 9999, 1000);
+        //                 gt.removeT(cod);
+        //                 gt.GravarFichC("corpoT.txt");
+        //                 break;
+        //             }
+        //             break;
+
+        //             //funcionarios
+        //             case 2:
+        //             cod = Validacoes.ValidarInt("Imforme o codigo do funcinario  a remover : ", 9999, 1000);
+        //             gf.removFunc(cod);
+        //             gf.gravarTxt("Funcionario.txt");
+        //             break;
+
+        //             //camera
+        //             case 3:
+        //             int numero = Validacoes.ValidarInt("Imforme o numero da camara que deseja remover: ", 100, 1);
+        //             gc.removeCamera(numero);
+        //             gc.GravarFich("camera.txt");
+        //             break;
+
+        //             //morgue
+        //             case 4:
+        //             cod = Validacoes.ValidarInt("Imforme o codigo da morgue que deseja remover  : ", 9999, 1000);
+        //             gm.removeM(cod);
+        //             gm.gravarTxt("morgue.txt");
+        //             break;
+
+        //             case 5:
+        //             MostrarOp.mostrarOpP();
+        //             esc = Validacoes.validarShort("Imforme uma opcao do menu: ", 7, 1);
+        //             break;
+        //         }
+        //         break;
+            }

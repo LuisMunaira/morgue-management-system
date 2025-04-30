@@ -1,0 +1,9 @@
+1234;m;idade entre os 20-30;suicidio;c;matimbe jose;matimbe justino
+5618;m;velho com barba branca ;infarto;d;nao tem marcas
+6818;f;jovem entre os 20-30 anos ;tomou varios medicamentos;d;nao temos marcas
+5110;g;de 12-14 anos;se matou por stress de mulheres;c;Hugo Basto;matemba
+2243;m;45 anos;Doenca;c;Antonio;Elia
+4189;m;23 anos;tensao;c;Stress;Abdul Hamad
+1588;m;17 anos;Diabete;c;Felisbesto;Mauro 
+1288;m;3 anos;Afogamento ;c;Ernesto;kachin 
+1388;m;24 anos;Incendio ;c;Augusto ;Felismina 
